@@ -1,0 +1,7 @@
+Dependencies
+This project requires the following Python packages:
+  GmSSL
+  PyCryptodome
+Installation
+  Install the required dependencies using pip:
+    pip3 install gmssl pycryptodome
