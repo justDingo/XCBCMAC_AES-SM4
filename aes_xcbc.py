@@ -55,10 +55,10 @@ if __name__ == "__main__":
     # test empty data
     empty_data = b""
     mac = aes_xcbc_mac(key, empty_data)
-    print(f"empty of AES-XCBC-MAC: {mac.hex()}")
+    print(f"empty input of AES-XCBC-MAC: {mac.hex()}")
 
 
     # test not empty
     test_data = bytes.fromhex("0528a41c000000320bf5e4563560c08655be91f11440143dcd22e936fc6ce7ae9d8c05b4be23dbc75f240ade5e7b33bfd5b07f79df15c0bbd99495e95697ee536d5d3f15b77ef804a903da72039bed10f0b63a31a911f59313121110")
     mac = aes_xcbc_mac(key, test_data)
-    print(f"authdata of AES-XCBC-MAC: {mac.hex()}")
+    print(f"AES-XCBC-MAC: {mac.hex()}")
