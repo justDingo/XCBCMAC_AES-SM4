@@ -1,11 +1,13 @@
 Dependencies
 This project requires the following Python packages:
-  GmSSL: support for SM4
   PyCryptodome: support for AES
+  GmSSL: support for SM4
+
 Installation
   Install the required dependencies using pip:
     pip3 install pycryptodome
-    pip3 install gmssl 
+    pip3 install gmssl
+
 Usage
   python3 ./aes_xcbc.py
   python3 ./sm4_xcbc.py
